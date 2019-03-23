@@ -4,7 +4,7 @@ import bg from '../img/bg.jpg'
 import blurBG from '../img/blurBg.png'
 import lsfsc from '../img/lsfsc.png'
 import ngige from '../img/ngige.png'
-import nike from '../img/nike.png'
+import nike from '../img/michael.png'
 import kari from '../img/kari.png'
 import anebi from '../img/anebi.png'
 import otis from '../img/otis.png'
@@ -15,7 +15,7 @@ import {Background, ContentWrapper, Row, Column, TextWrapper} from '../component
 import './page.css'
 
 import Periodical from 'react-periodical';
-import Countdown from '../components/Countdown'
+
 
 
 export default class IndexPage extends Component {
@@ -77,7 +77,8 @@ Fire Prevention in Lagos State.
         <p className= 'theme' >Date & Venue</p>
         <h1>
          16th - 18th October 2017 <br/>
-         @ LCCI (Lagos Chambers for Commerce & Industry)
+         @ LCCI (Lagos Chambers of Commerce & Industry) <br/>
+         Alausa, Ikeja, Lagos State
         </h1>
         </Column>
        
@@ -88,7 +89,7 @@ Fire Prevention in Lagos State.
         <Column className= 'guest' > 
        
         
-        <img  className='' src={ngige} alt="Logo"/>
+        <img  className='' src={ngige} alt="Ngige"/>
   
         </Column>
            <Column className= 'guest' > 
@@ -112,7 +113,7 @@ Fire Prevention in Lagos State.
 
         
       </div>
-        <Countdown home/>
+     
       </Periodical>
       <div className='socialDiv' >
        <img src={fb} alt="Logo"/>

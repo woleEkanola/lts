@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 import {Background, ContentWrapper, Row, TextWrapper,  Column, Button} from '../components/Recomposse';
 import Header from '../components/Header'
 import SideBar from '../components/SideBar'
-import Countdown from '../components/Countdown'
+
 
 
 import ngigeBG from '../img/ngigeBG.jpg'
@@ -43,11 +43,7 @@ const Profile = () => (
         <h4> Dr.Chris Ngige</h4>
         <h6>Minister of Labour and Employment </h6>
         </Column>
-           <Column className= '' > 
-        <img  className='' src={nikeBG} alt="Logo"/>
-        <h4> Dr.Mrs.Nike Akande</h4>
-        <h6>President Lagos chamber of commerce & Industry</h6>
-        </Column>
+           
            <Column className= '' > 
         <img  className='' src={kariBG} alt="Logo"/>
         <h4> Alhaji Mohammed Kari ACII,AIIN                 </h4>
@@ -66,7 +62,7 @@ const Profile = () => (
         </Column>
          <Column className= '' > 
         <img  className='' src={michael} alt="Logo"/>
-        <h4> Micheal Greiner</h4>
+        <h4> Micheal T. Greiner (USA)</h4>
         <h6>President Hazard Control Technologies Inc                      </h6>
         </Column>
      </Column>
@@ -103,7 +99,7 @@ const Profile = () => (
      </Column>
     </Row>
     <TextWrapper>
-         <Countdown />
+
     </TextWrapper>
 
    </ContentWrapper>

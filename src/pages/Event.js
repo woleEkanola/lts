@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 import {Background, ContentWrapper, Row, TextWrapper,  Column} from '../components/Recomposse';
 import Header from '../components/Header'
 import SideBar from '../components/SideBar'
-import Countdown from '../components/Countdown'
+
 
 
 const Event = () => (
@@ -33,7 +33,7 @@ const Event = () => (
          <p>Mrs. Debbie Windele (Fire Safety Administrator Lagos State Safety Commission) 0703 035 0432 </p>
        <p>Ms Ifeyemi Odusanya (Lagos State Safety Commission) -  0802 875 9558
 </p>
-   <Countdown />
+
         </TextWrapper>
     </Row>
 

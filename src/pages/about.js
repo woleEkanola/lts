@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 import {Background, ContentWrapper, Row, TextWrapper,  Column} from '../components/Recomposse';
 import Header from '../components/Header'
 import SideBar from '../components/SideBar'
-import Countdown from '../components/Countdown'
+
 
 import fireSafety from '../img/fireSafety.jpg'
 
@@ -39,7 +39,7 @@ const About = () => (
  <h4>Benefits for your organisation </h4> <p>Fresh learning and new ideas: Your attendance at the Lagos State Fire Safety Conference 2017 will provide a great return on investment. You'll come back to the workplace with fresh learning and new ideas that you can implement immediately.</p>
 
 <h4>Make new contacts:</h4> <p>Lagos State Fire Safety Conference 2017 is an excellent platform for you to network, make professional connections and build enduring, mutually beneficial relationships with others. You'll have opportunities to share experiences, ask for advice and discuss issues with like-minded professionals who face the same day-to-day challenges as you. </p>
-    <Countdown />
+  
   
       </TextWrapper>
     </Row>

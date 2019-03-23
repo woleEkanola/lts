@@ -4,7 +4,7 @@ import Link from 'gatsby-link'
 import {Background, ContentWrapper, Row, TextWrapper,  Column} from '../components/Recomposse';
 import Header from '../components/Header'
 import SideBar from '../components/SideBar'
-import Countdown from '../components/Countdown'
+
 import fireSafety from '../img/fireSafety.jpg'
 
 const Contact = () => (
@@ -21,10 +21,10 @@ Exhibition and sponsorship enquires <br />
 General Conference enquiries<br />
 
         <h3>Contact</h3>
-        <p>Mrs. Debbie Windele (Fire Safety Administrator Lagos State Safety Commission) 0703 035 0432 </p>
-       <p>Ms Ifeyemi Odusanya (Lagos State Safety Commission) -  0802 875 9558
+        <p>Mrs. Debbie Windele (Fire Safety Administrator Lagos State Safety Commission) +234(0)703 035 0432 </p>
+       <p>Ms Ifeyemi Odusanya (Lagos State Safety Commission) -   +234(0)802 875 9558
 </p>
- <Countdown />
+
  </TextWrapper>
     </Row>
 

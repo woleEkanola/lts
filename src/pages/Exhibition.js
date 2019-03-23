@@ -4,8 +4,8 @@ import Link from 'gatsby-link'
 import {Background, ContentWrapper, Row, TextWrapper,  Column} from '../components/Recomposse';
 import Header from '../components/Header'
 import SideBar from '../components/SideBar'
-import Countdown from '../components/Countdown'
 
+import exhibition from '../img/exhibition.pdf'
 import fireSafety from '../img/fireSafety.jpg'
 
 const Exhibition = () => (
@@ -29,9 +29,11 @@ const Exhibition = () => (
 <p>The spacious exhibition hall is situated alongside conference registration and close to the main conference auditorium. Delegate refreshment breaks, lunch and a designated time during the conference would be allocated for exhibition.</p>
 <hr/>
         <h3>Contact</h3>
-        <p>Mrs. Debbie Windele (Fire Safety Administrator Lagos State Safety Commission) - 0703 035 0432 </p>
-       
-       <Countdown />
+        <p>Mrs. Debbie Windele (Fire Safety Administrator Lagos State Safety Commission) - +234(0)703 035 0432 </p>
+          <p>Ms Ifeyemi Odusanya (Lagos State Safety Commission) -   +234(0)802 875 9558
+</p>
+  <a href={exhibition} target="_blank">   <button >View and download Exhibition Details</button> </a> 
+   
  </TextWrapper>
     </Row>
 
